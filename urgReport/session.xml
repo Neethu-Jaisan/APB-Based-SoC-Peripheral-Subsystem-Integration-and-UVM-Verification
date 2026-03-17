@@ -1,0 +1,26 @@
+<session version="1.1" release="V-2023.12-1" timestp="2026-03-17 08:25:12 GMT">
+  <info>
+    <attr name="datetime" value="Tue Mar 17 04:26:19 2026
+"/>
+    <attr name="command" value="urg -dir simv.vdb -format both"/>
+  </info>
+  <hvp>
+    <datadef>
+      <metdef name="Group" type="percent" aggregator="average" builtin="1" />
+    </datadef>
+  </hvp>
+  <old_coverage>
+  <scope type="top" name="top">
+    <metric name="Group" value="93.75%" />
+  </scope>
+  <scope type="instance" name="top">
+  </scope>
+  <scope type="group" name="top">
+    <scope type="group" name="$unit::apb_coverage::cg_apb">
+      <metric name="Group" value="93.75%" />
+    </scope>
+  </scope>
+  <scope type="assert" name="Statistics">
+  </scope>
+  </old_coverage>
+</session>
