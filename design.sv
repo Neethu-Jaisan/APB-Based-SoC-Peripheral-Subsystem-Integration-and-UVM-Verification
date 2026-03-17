@@ -1,5 +1,4 @@
 interface soc_if(input logic PCLK);
-
   logic PRESETn;
   logic PSEL;
   logic PENABLE;
@@ -8,7 +7,22 @@ interface soc_if(input logic PCLK);
   logic [31:0] PWDATA;
   logic [31:0] PRDATA;
 
+  // --- APB Protocol Assertions ---
+  property p_sel_then_enable;
+    @(posedge PCLK) disable iff (!PRESETn)
+    PSEL && !PENABLE |=> PENABLE;
+  endproperty
+
+  property p_addr_stable;
+    @(posedge PCLK) disable iff (!PRESETn)
+    PSEL && PENABLE |=> $stable(PADDR);
+  endproperty
+
+  assert_psel_enable: assert property (p_sel_then_enable);
+  assert_addr_stable: assert property (p_addr_stable);
 endinterface
+
+// ... [Rest of the peripheral modules from previous code remain the same] ...
 
 
 
@@ -184,7 +198,7 @@ module soc_subsystem (
       4'h4: PRDATA = timer_r;
       4'h5: PRDATA = gpio_r;
       4'h6: PRDATA = alu_r;
-      default: PRDATA = 32'hBAD_ADDR;
+      default: PRDATA = 32'hDEAD_BEEF;
     endcase
   end
 
