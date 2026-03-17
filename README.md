@@ -9,12 +9,15 @@ Designed and verified a mini SoC subsystem using the APB protocol. The design in
 ## Features
 
 * APB-based communication (PSEL, PENABLE, PREADY)
+  <img width="803" height="408" alt="image" src="https://github.com/user-attachments/assets/f32c027b-76b1-4500-b514-8ad371ec8ef8" />
+
 * Memory-mapped peripherals (ALU, GPIO, Timer, Memory)
 * Address decoding for peripheral selection
 * UVM testbench with driver, monitor, scoreboard
 * Functional coverage and assertion-based checks
 
 ---
+<img width="848" height="699" alt="image" src="https://github.com/user-attachments/assets/057237e9-c1f6-4874-bda2-9db1db8a3b45" />
 
 ## Verification
 
@@ -24,6 +27,8 @@ Designed and verified a mini SoC subsystem using the APB protocol. The design in
 * Debugging using waveform analysis
 
 ---
+<img width="802" height="616" alt="image" src="https://github.com/user-attachments/assets/a93aaf1d-4554-4e23-bdde-4d2d5c0ef273" />
+
 
 ## Results
 
