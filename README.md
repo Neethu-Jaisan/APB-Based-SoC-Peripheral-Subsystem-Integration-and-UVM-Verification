@@ -32,21 +32,13 @@ Designed and verified a mini SoC subsystem using the APB protocol. The design in
 
 ## Results
 
-### Simulation Log
-
-
-<img src="a.png" width="700">
-<img src="b.png" width="700">
-<img src="c.png" width="700">
-
-
 ### Coverage Summary
 
 * Functional Coverage: **93.75%**
 * Cross Coverage: **100%**
 * Variable Coverage: **91.67%**
 
-<img src="d.png" width="700">
+<img src="terminal.png" width="700">
 
 ---
 
