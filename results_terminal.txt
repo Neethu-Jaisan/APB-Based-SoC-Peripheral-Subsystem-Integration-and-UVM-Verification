@@ -1,0 +1,180 @@
+----------------------------------------------------------------
+UVM-1.1d.Synopsys
+(C) 2007-2013 Mentor Graphics Corporation
+(C) 2007-2013 Cadence Design Systems, Inc.
+(C) 2006-2013 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO @ 0: reporter [RNTST] Running test apb_test...
+UVM_INFO tnew.sv(237) @ 55: uvm_test_top.env.sb [SB] MATCH Addr:00 Data:00000000
+UVM_INFO tnew.sv(237) @ 255: uvm_test_top.env.sb [SB] MATCH Addr:6c Data:dea9b43c
+UVM_INFO tnew.sv(237) @ 375: uvm_test_top.env.sb [SB] MATCH Addr:0b Data:00000000
+UVM_INFO tnew.sv(237) @ 455: uvm_test_top.env.sb [SB] MATCH Addr:07 Data:00000000
+UVM_INFO tnew.sv(237) @ 775: uvm_test_top.env.sb [SB] MATCH Addr:0c Data:d3f87a71
+UVM_INFO tnew.sv(237) @ 1055: uvm_test_top.env.sb [SB] MATCH Addr:50 Data:00000060
+UVM_INFO tnew.sv(237) @ 1135: uvm_test_top.env.sb [SB] MATCH Addr:6c Data:ce3d5db3
+UVM_INFO tnew.sv(237) @ 1215: uvm_test_top.env.sb [SB] MATCH Addr:0f Data:00000000
+UVM_INFO tnew.sv(237) @ 1255: uvm_test_top.env.sb [SB] MATCH Addr:50 Data:00000060
+UVM_INFO tnew.sv(237) @ 1295: uvm_test_top.env.sb [SB] MATCH Addr:6c Data:ce3d5db3
+UVM_INFO tnew.sv(237) @ 1375: uvm_test_top.env.sb [SB] MATCH Addr:50 Data:00000060
+UVM_INFO tnew.sv(237) @ 1495: uvm_test_top.env.sb [SB] MATCH Addr:04 Data:00000000
+UVM_INFO tnew.sv(237) @ 1615: uvm_test_top.env.sb [SB] MATCH Addr:00 Data:00000000
+UVM_INFO tnew.sv(237) @ 1735: uvm_test_top.env.sb [SB] MATCH Addr:6c Data:25e895d5
+UVM_INFO tnew.sv(237) @ 1815: uvm_test_top.env.sb [SB] MATCH Addr:09 Data:00000000
+UVM_INFO tnew.sv(237) @ 1855: uvm_test_top.env.sb [SB] MATCH Addr:0e Data:00000000
+UVM_INFO tnew.sv(237) @ 1935: uvm_test_top.env.sb [SB] MATCH Addr:0a Data:00000000
+UVM_INFO tnew.sv(237) @ 2215: uvm_test_top.env.sb [SB] MATCH Addr:03 Data:620ca020
+UVM_INFO tnew.sv(237) @ 2295: uvm_test_top.env.sb [SB] MATCH Addr:00 Data:0ffd77da
+UVM_INFO tnew.sv(237) @ 2335: uvm_test_top.env.sb [SB] MATCH Addr:09 Data:00000000
+UVM_INFO tnew.sv(237) @ 2495: uvm_test_top.env.sb [SB] MATCH Addr:09 Data:00000000
+UVM_INFO tnew.sv(237) @ 2575: uvm_test_top.env.sb [SB] MATCH Addr:0c Data:d3f87a71
+UVM_INFO tnew.sv(237) @ 2615: uvm_test_top.env.sb [SB] MATCH Addr:07 Data:b01ea35a
+UVM_INFO tnew.sv(237) @ 2695: uvm_test_top.env.sb [SB] MATCH Addr:6c Data:ec497cc0
+UVM_INFO tnew.sv(237) @ 2855: uvm_test_top.env.sb [SB] MATCH Addr:0c Data:d3f87a71
+UVM_INFO tnew.sv(237) @ 2895: uvm_test_top.env.sb [SB] MATCH Addr:0d Data:2955411d
+UVM_INFO tnew.sv(237) @ 2975: uvm_test_top.env.sb [SB] MATCH Addr:6c Data:3a813a2f
+UVM_INFO tnew.sv(237) @ 3135: uvm_test_top.env.sb [SB] MATCH Addr:08 Data:78de254f
+UVM_INFO tnew.sv(237) @ 3175: uvm_test_top.env.sb [SB] MATCH Addr:04 Data:00000000
+UVM_INFO tnew.sv(237) @ 3295: uvm_test_top.env.sb [SB] MATCH Addr:0b Data:74036794
+UVM_INFO tnew.sv(237) @ 3335: uvm_test_top.env.sb [SB] MATCH Addr:0f Data:00000000
+UVM_INFO tnew.sv(237) @ 3415: uvm_test_top.env.sb [SB] MATCH Addr:04 Data:00000000
+UVM_INFO tnew.sv(237) @ 3455: uvm_test_top.env.sb [SB] MATCH Addr:0b Data:74036794
+UVM_INFO tnew.sv(237) @ 3575: uvm_test_top.env.sb [SB] MATCH Addr:08 Data:78de254f
+UVM_INFO tnew.sv(237) @ 3695: uvm_test_top.env.sb [SB] MATCH Addr:0d Data:2955411d
+UVM_INFO tnew.sv(237) @ 3735: uvm_test_top.env.sb [SB] MATCH Addr:03 Data:b81a8129
+UVM_INFO tnew.sv(237) @ 4135: uvm_test_top.env.sb [SB] MATCH Addr:0b Data:74036794
+UVM_INFO tnew.sv(237) @ 4375: uvm_test_top.env.sb [SB] MATCH Addr:05 Data:00000000
+UVM_INFO tnew.sv(237) @ 4495: uvm_test_top.env.sb [SB] MATCH Addr:0c Data:49cb644a
+UVM_INFO tnew.sv(237) @ 4655: uvm_test_top.env.sb [SB] MATCH Addr:0c Data:49cb644a
+UVM_INFO tnew.sv(237) @ 4735: uvm_test_top.env.sb [SB] MATCH Addr:02 Data:78cbfa9b
+UVM_INFO tnew.sv(237) @ 4895: uvm_test_top.env.sb [SB] MATCH Addr:06 Data:0ce4de12
+UVM_INFO tnew.sv(237) @ 5095: uvm_test_top.env.sb [SB] MATCH Addr:02 Data:78cbfa9b
+UVM_INFO tnew.sv(237) @ 5135: uvm_test_top.env.sb [SB] MATCH Addr:02 Data:78cbfa9b
+UVM_INFO tnew.sv(237) @ 5815: uvm_test_top.env.sb [SB] MATCH Addr:09 Data:be728cac
+UVM_INFO tnew.sv(237) @ 5855: uvm_test_top.env.sb [SB] MATCH Addr:0d Data:2955411d
+UVM_INFO tnew.sv(237) @ 5895: uvm_test_top.env.sb [SB] MATCH Addr:03 Data:b81a8129
+UVM_INFO tnew.sv(237) @ 5935: uvm_test_top.env.sb [SB] MATCH Addr:05 Data:d038bb0f
+UVM_INFO tnew.sv(237) @ 6215: uvm_test_top.env.sb [SB] MATCH Addr:6c Data:a3e2e4ba
+UVM_INFO tnew.sv(237) @ 6255: uvm_test_top.env.sb [SB] MATCH Addr:0f Data:00000000
+UVM_INFO tnew.sv(237) @ 6295: uvm_test_top.env.sb [SB] MATCH Addr:01 Data:3faa1e5a
+UVM_INFO tnew.sv(237) @ 6455: uvm_test_top.env.sb [SB] MATCH Addr:03 Data:b81a8129
+UVM_INFO tnew.sv(237) @ 6575: uvm_test_top.env.sb [SB] MATCH Addr:05 Data:d038bb0f
+UVM_INFO tnew.sv(237) @ 6615: uvm_test_top.env.sb [SB] MATCH Addr:6c Data:a3e2e4ba
+UVM_INFO tnew.sv(237) @ 7055: uvm_test_top.env.sb [SB] MATCH Addr:03 Data:42cca784
+UVM_INFO tnew.sv(237) @ 7135: uvm_test_top.env.sb [SB] MATCH Addr:03 Data:42cca784
+UVM_INFO tnew.sv(237) @ 7455: uvm_test_top.env.sb [SB] MATCH Addr:0c Data:5d29a04c
+UVM_INFO tnew.sv(237) @ 7655: uvm_test_top.env.sb [SB] MATCH Addr:0b Data:74036794
+UVM_INFO tnew.sv(237) @ 7735: uvm_test_top.env.sb [SB] MATCH Addr:08 Data:fafab28a
+UVM_INFO tnew.sv(237) @ 7815: uvm_test_top.env.sb [SB] MATCH Addr:0f Data:61821de0
+UVM_INFO tnew.sv(237) @ 7975: uvm_test_top.env.sb [SB] MATCH Addr:0d Data:88bb0a01
+UVM_INFO tnew.sv(237) @ 8015: uvm_test_top.env.sb [SB] MATCH Addr:03 Data:630d841d
+UVM_INFO tnew.sv(237) @ 8095: uvm_test_top.env.sb [SB] MATCH Addr:6c Data:495f3d96
+UVM_INFO tnew.sv(237) @ 8255: uvm_test_top.env.sb [SB] MATCH Addr:6c Data:495f3d96
+UVM_INFO tnew.sv(237) @ 8935: uvm_test_top.env.sb [SB] MATCH Addr:0f Data:3125d4c7
+UVM_INFO tnew.sv(237) @ 9015: uvm_test_top.env.sb [SB] MATCH Addr:09 Data:add50812
+UVM_INFO tnew.sv(237) @ 9175: uvm_test_top.env.sb [SB] MATCH Addr:07 Data:b94a2ca9
+UVM_INFO tnew.sv(237) @ 9415: uvm_test_top.env.sb [SB] MATCH Addr:50 Data:000000ce
+UVM_INFO tnew.sv(237) @ 9575: uvm_test_top.env.sb [SB] MATCH Addr:03 Data:e76cef0a
+UVM_INFO tnew.sv(237) @ 9655: uvm_test_top.env.sb [SB] MATCH Addr:09 Data:add50812
+UVM_INFO tnew.sv(237) @ 9735: uvm_test_top.env.sb [SB] MATCH Addr:00 Data:1b700213
+UVM_INFO tnew.sv(237) @ 9975: uvm_test_top.env.sb [SB] MATCH Addr:0f Data:3125d4c7
+UVM_INFO tnew.sv(237) @ 10055: uvm_test_top.env.sb [SB] MATCH Addr:0c Data:d464ec11
+UVM_INFO tnew.sv(237) @ 10215: uvm_test_top.env.sb [SB] MATCH Addr:0f Data:3125d4c7
+UVM_INFO tnew.sv(237) @ 10295: uvm_test_top.env.sb [SB] MATCH Addr:06 Data:4e903b49
+UVM_INFO tnew.sv(237) @ 10335: uvm_test_top.env.sb [SB] MATCH Addr:01 Data:6bf2e07e
+UVM_INFO tnew.sv(237) @ 10535: uvm_test_top.env.sb [SB] MATCH Addr:6c Data:23d88eaa
+UVM_INFO tnew.sv(237) @ 10615: uvm_test_top.env.sb [SB] MATCH Addr:06 Data:4e903b49
+UVM_INFO tnew.sv(237) @ 10655: uvm_test_top.env.sb [SB] MATCH Addr:01 Data:6bf2e07e
+UVM_INFO tnew.sv(237) @ 10895: uvm_test_top.env.sb [SB] MATCH Addr:01 Data:6bf2e07e
+UVM_INFO tnew.sv(237) @ 10975: uvm_test_top.env.sb [SB] MATCH Addr:6c Data:23d88eaa
+UVM_INFO tnew.sv(237) @ 11215: uvm_test_top.env.sb [SB] MATCH Addr:02 Data:78cbfa9b
+UVM_INFO tnew.sv(237) @ 11295: uvm_test_top.env.sb [SB] MATCH Addr:08 Data:4a091a2c
+UVM_INFO tnew.sv(237) @ 11415: uvm_test_top.env.sb [SB] MATCH Addr:0e Data:6cb9e6f1
+UVM_INFO tnew.sv(237) @ 11975: uvm_test_top.env.sb [SB] MATCH Addr:09 Data:9e2c0ae1
+UVM_INFO tnew.sv(237) @ 12175: uvm_test_top.env.sb [SB] MATCH Addr:02 Data:78cbfa9b
+UVM_INFO tnew.sv(237) @ 12335: uvm_test_top.env.sb [SB] MATCH Addr:01 Data:6bf2e07e
+UVM_INFO tnew.sv(237) @ 12375: uvm_test_top.env.sb [SB] MATCH Addr:0d Data:88bb0a01
+UVM_INFO tnew.sv(237) @ 12535: uvm_test_top.env.sb [SB] MATCH Addr:01 Data:6bf2e07e
+UVM_INFO tnew.sv(237) @ 12695: uvm_test_top.env.sb [SB] MATCH Addr:06 Data:5a34c38d
+UVM_INFO tnew.sv(237) @ 13015: uvm_test_top.env.sb [SB] MATCH Addr:0d Data:88bb0a01
+UVM_INFO tnew.sv(237) @ 13175: uvm_test_top.env.sb [SB] MATCH Addr:0d Data:88bb0a01
+UVM_INFO tnew.sv(237) @ 13375: uvm_test_top.env.sb [SB] MATCH Addr:09 Data:9e2c0ae1
+UVM_INFO tnew.sv(237) @ 13415: uvm_test_top.env.sb [SB] MATCH Addr:04 Data:dbc3343b
+UVM_INFO tnew.sv(237) @ 13575: uvm_test_top.env.sb [SB] MATCH Addr:0c Data:306b81f0
+UVM_INFO tnew.sv(237) @ 13615: uvm_test_top.env.sb [SB] MATCH Addr:6c Data:3d0604a4
+UVM_INFO tnew.sv(237) @ 14015: uvm_test_top.env.sb [SB] MATCH Addr:02 Data:4ac8d8c5
+UVM_INFO tnew.sv(237) @ 14135: uvm_test_top.env.sb [SB] MATCH Addr:0a Data:9664f8a9
+UVM_INFO tnew.sv(237) @ 14175: uvm_test_top.env.sb [SB] MATCH Addr:04 Data:c56fe13f
+UVM_INFO tnew.sv(237) @ 14455: uvm_test_top.env.sb [SB] MATCH Addr:04 Data:5d189469
+UVM_INFO tnew.sv(237) @ 14655: uvm_test_top.env.sb [SB] MATCH Addr:0e Data:d01d27b3
+UVM_INFO tnew.sv(237) @ 15015: uvm_test_top.env.sb [SB] MATCH Addr:09 Data:9e2c0ae1
+UVM_INFO tnew.sv(237) @ 15055: uvm_test_top.env.sb [SB] MATCH Addr:50 Data:000000ce
+UVM_INFO tnew.sv(237) @ 15175: uvm_test_top.env.sb [SB] MATCH Addr:01 Data:8a9702f3
+UVM_INFO tnew.sv(237) @ 15255: uvm_test_top.env.sb [SB] MATCH Addr:00 Data:c0d999be
+UVM_INFO tnew.sv(237) @ 15295: uvm_test_top.env.sb [SB] MATCH Addr:6c Data:60010c02
+UVM_INFO tnew.sv(237) @ 15375: uvm_test_top.env.sb [SB] MATCH Addr:06 Data:402bc0c7
+UVM_INFO tnew.sv(237) @ 15575: uvm_test_top.env.sb [SB] MATCH Addr:0a Data:9664f8a9
+UVM_INFO tnew.sv(237) @ 15615: uvm_test_top.env.sb [SB] MATCH Addr:0e Data:d01d27b3
+UVM_INFO tnew.sv(237) @ 15735: uvm_test_top.env.sb [SB] MATCH Addr:0c Data:306b81f0
+UVM_INFO tnew.sv(237) @ 15895: uvm_test_top.env.sb [SB] MATCH Addr:0f Data:72b20be8
+UVM_INFO tnew.sv(237) @ 16095: uvm_test_top.env.sb [SB] MATCH Addr:01 Data:8a9702f3
+UVM_INFO tnew.sv(237) @ 16175: uvm_test_top.env.sb [SB] MATCH Addr:6c Data:00100412
+UVM_INFO tnew.sv(237) @ 16415: uvm_test_top.env.sb [SB] MATCH Addr:0e Data:d01d27b3
+UVM_INFO tnew.sv(237) @ 16535: uvm_test_top.env.sb [SB] MATCH Addr:03 Data:b8b4796a
+UVM_INFO tnew.sv(237) @ 16615: uvm_test_top.env.sb [SB] MATCH Addr:06 Data:402bc0c7
+UVM_INFO tnew.sv(237) @ 16775: uvm_test_top.env.sb [SB] MATCH Addr:04 Data:5d189469
+UVM_INFO tnew.sv(237) @ 16855: uvm_test_top.env.sb [SB] MATCH Addr:50 Data:000000ce
+UVM_INFO tnew.sv(237) @ 17095: uvm_test_top.env.sb [SB] MATCH Addr:04 Data:5d189469
+UVM_INFO tnew.sv(237) @ 17135: uvm_test_top.env.sb [SB] MATCH Addr:0a Data:f115942e
+UVM_INFO tnew.sv(237) @ 17375: uvm_test_top.env.sb [SB] MATCH Addr:06 Data:402bc0c7
+UVM_INFO tnew.sv(237) @ 17535: uvm_test_top.env.sb [SB] MATCH Addr:0e Data:ae0c3e58
+UVM_INFO tnew.sv(237) @ 17655: uvm_test_top.env.sb [SB] MATCH Addr:00 Data:c0d999be
+UVM_INFO tnew.sv(237) @ 18215: uvm_test_top.env.sb [SB] MATCH Addr:00 Data:c0d999be
+UVM_INFO tnew.sv(237) @ 18415: uvm_test_top.env.sb [SB] MATCH Addr:50 Data:000000d7
+UVM_INFO tnew.sv(237) @ 18495: uvm_test_top.env.sb [SB] MATCH Addr:08 Data:e063785d
+UVM_INFO tnew.sv(237) @ 18615: uvm_test_top.env.sb [SB] MATCH Addr:6c Data:9a200a66
+UVM_INFO tnew.sv(237) @ 18695: uvm_test_top.env.sb [SB] MATCH Addr:02 Data:def1c76f
+UVM_INFO tnew.sv(237) @ 18855: uvm_test_top.env.sb [SB] MATCH Addr:0d Data:dca6e3b7
+UVM_INFO tnew.sv(237) @ 18935: uvm_test_top.env.sb [SB] MATCH Addr:01 Data:461c45d0
+UVM_INFO tnew.sv(237) @ 19015: uvm_test_top.env.sb [SB] MATCH Addr:0f Data:72b20be8
+UVM_INFO tnew.sv(237) @ 19055: uvm_test_top.env.sb [SB] MATCH Addr:6c Data:82403860
+UVM_INFO tnew.sv(237) @ 19095: uvm_test_top.env.sb [SB] MATCH Addr:04 Data:57aaa1ad
+UVM_INFO tnew.sv(237) @ 19375: uvm_test_top.env.sb [SB] MATCH Addr:50 Data:000000d7
+UVM_INFO tnew.sv(237) @ 19495: uvm_test_top.env.sb [SB] MATCH Addr:0f Data:72b20be8
+UVM_INFO tnew.sv(237) @ 19775: uvm_test_top.env.sb [SB] MATCH Addr:07 Data:f0cf794c
+UVM_INFO /home/synopsys/vcs_vV2023.1/vcs/V-2023.12-1/etc/uvm/base/uvm_objection.svh(1274) @ 20115: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO tnew.sv(308) @ 20115: uvm_test_top [FINAL_COV] Coverage: 100.00%
+
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :  139
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[FINAL_COV]     1
+[RNTST]     1
+[SB]   136
+[TEST_DONE]     1
+$finish called from file "/home/synopsys/vcs_vV2023.1/vcs/V-2023.12-1/etc/uvm/base/uvm_root.svh", line 437.
+$finish at simulation time                20115
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 20115 ns
+CPU Time:      0.170 seconds;       Data structure size:   0.5Mb
+Wed Mar 25 04:56:00 2026
+[c2user16@vlsi16 New]$ 
+
