@@ -50,7 +50,7 @@ Designed and verified a mini SoC subsystem using the APB protocol. The design in
 
 * SystemVerilog, UVM 1.2
 * Synopsys VCS
-* URG (Coverage Analysis)
+
 
 ---
 
